@@ -4,8 +4,8 @@ This is a project uses SKLearn to create a basic machine learning model that pre
 ## Features
 
 - Splits data into training and testing datasets, which the model will use to understand the data, then applies the learned patterns to the testing dataset
-- Creates a confusion matrix to 
-- Uses Principal Component Analysis to summarize and cluster data, and graph the clusters as well
+- Creates a confusion matrix to evaluate the model's performace on the test dataset
+- Creates a classification matrix to further evaluate the model's accuracy
 
 ## Requirements
 
@@ -16,8 +16,6 @@ Required libraries to pip install:
 
 - pandas
 
-- hvplot
-
 - sklearn
 
 
@@ -25,15 +23,15 @@ Required libraries to pip install:
 
 Ensure all required libaries are pip installed
 
-Ensure "crypto_market_data.csv" is in the "Resources" folder
+Ensure "lending_data.csv" is in the "Resources" folder
 
-Ensure the "Resources" folder is in the same folder as "Crypto_Clustering_starter_code.ipynb"
+Ensure the "Resources" folder is in the same folder as "credit_risk_classification.ipynb"
 
-Open "Crypto_Clustering_starter_code.ipynb" with a text editor compatable with IYPNB files
+Open "credit_risk_classification.ipynb" with a text editor compatable with IYPNB files
 
 Click "Run All" and allow the code to run
 
-Ensure all graphs and dataframes populate properly
+Ensure matricies and dataframes populate correctly
 
 ## Contributing
 
